@@ -1,0 +1,25 @@
+{
+  "name": "kustovi-code-challange",
+  "version": "1.0.0",
+  "description": "Kustovi code challange",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Víctor Antón",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js --experimental-modules"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "express": "4.17.1",
+    "express-validator": "6.6.1",
+    "firebase-admin": "9.4.1",
+    "jsonwebtoken": "8.5.1",
+    "passport": "0.4.1",
+    "passport-http-bearer": "1.0.1",
+    "passport-local": "1.0.0"
+  }
+}
